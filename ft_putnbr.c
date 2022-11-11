@@ -6,7 +6,7 @@
 /*   By: taelkhal <taelkhal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 13:15:53 by taelkhal          #+#    #+#             */
-/*   Updated: 2022/11/08 13:52:38 by taelkhal         ###   ########.fr       */
+/*   Updated: 2022/11/09 13:01:01 by taelkhal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_putnbr(int n, int *ct)
 {
-	long number;
+	long	number;
 
 	number = n;
 	if (number < 0)
@@ -30,10 +30,3 @@ void	ft_putnbr(int n, int *ct)
 	else
 		ft_putchar(number + '0', ct);
 }
-// #include <stdio.h>
-// int main()
-// {
-// 	int ct = 0;
-// 	ft_putnbr(1234, &ct);
-// 	printf ("\n%d", ct);
-// }
